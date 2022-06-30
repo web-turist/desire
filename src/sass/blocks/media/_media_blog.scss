@@ -1,0 +1,44 @@
+@media (max-width: 992px) {
+    .blog {
+        &__inner {
+            flex-wrap: wrap;
+        }
+        &__items {
+            max-width: 100%;
+        }
+        &__item {
+            &-img {
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+    }
+    
+    .aside {
+        width: 100%;
+        margin-left: 0;
+        order: -1;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 540px) {
+    .blog {
+        padding: 60px 0 60px;
+        &__blockquote {
+            padding: 54px 10px;
+        }
+        &__item {
+            margin-bottom: 40px;
+            &-title {
+                font-size: 20px;
+                line-height: 26px;
+            }
+        }
+    }
+    .blog-one {
+        &__form-input {
+            width: 100%;
+        }
+    }
+}

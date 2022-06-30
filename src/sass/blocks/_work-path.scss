@@ -1,0 +1,73 @@
+.work-path {
+    padding: 80px 0 30px;
+    &__title {
+        text-align: center;
+        @extend %title-font;
+        color: $color-title;
+        font-size: 36px;
+        line-height: 51px;
+        margin-bottom: 40px;
+    }
+    &__items {
+        &-box {
+            display: flex;
+            align-items: flex-end;
+            border-bottom: 2px solid rgba(#363838, .7);
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                bottom: -6px;
+                left: -1px;
+                width: 10px;
+                height: 10px;
+                background: #363838;
+                border-radius: 50%;
+            }
+        }
+    }
+    &__item {
+        width: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+        &--consultation,
+        &--production {
+            padding-bottom: 38px;
+        }
+        &--production {
+            margin-left: 317px;
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 20px;
+                width: 2px;
+                background:rgba(#363838, .7);
+            }
+        }
+        &--measurement {
+            padding-top: 38px;
+            margin-left: 305px;
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 20px;
+                width: 2px;
+                background: rgba(#363838, .7);
+            }
+        }
+        &-title {
+            margin-left: 13px;
+            color: $color-title;
+            @extend %title-font;
+        }
+        &-text {
+            margin-top: 13px;
+        }
+    }
+}

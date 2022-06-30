@@ -1,0 +1,42 @@
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/global';
+@import 'base/libs';
+// @import 'base/animations';
+
+// body {
+//     font-family: 'Museo Sans Cyrl';
+// }
+
+
+@import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/rightside-menu';
+@import 'blocks/top';
+@import 'blocks/new-collection';
+@import 'blocks/decor';
+@import 'blocks/work-path';
+@import 'blocks/gallery';
+@import 'blocks/blog-box';
+
+// стили страницы About
+@import 'blocks/about/breadcrumbs';
+@import 'blocks/about/about';
+@import 'blocks/about/inspiration';
+@import 'blocks/about/partners';
+
+//стили страницы Galley
+@import 'blocks/gallery/gallery-page';
+
+//стили страницы Contact
+@import 'blocks/contact/contacts';
+
+//стили страницы Blog
+@import 'blocks/blog/blog';
+@import 'blocks/blog/blog_one';
+
+//.................MEDIA...............
+@import 'blocks/media/media_main-page';
+@import 'blocks/media/media_about';
+@import 'blocks/media/media_contacts';
+@import 'blocks/media/media_blog';

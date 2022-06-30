@@ -1,0 +1,49 @@
+@media (max-width: 1700px) {
+    .contact-slider {
+        &__img {
+            width: 97%;
+        }
+        &__title {
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 1366px) {
+    .map {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .map {
+        iframe {
+            height: 320px;
+        }
+    }
+    .contact {
+        &__title {
+            font-size: 30px;
+            line-height: 38px;
+        }
+        .contact__social {
+            padding-left: 0;
+        }
+        &__box {
+            padding-left: 0;
+        }
+        &__form {
+            padding-left: 0;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .contact {
+        &__form {
+            &-input {
+                width: 100%;
+            }
+        }
+    }
+}
